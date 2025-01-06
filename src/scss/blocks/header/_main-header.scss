@@ -1,0 +1,28 @@
+@use '../../base/variables';
+
+.main-header {
+    // position: absolute;
+    // top: 50px;
+    
+    // width: 100%;
+    padding-top: 50px;
+
+    &__wrapp {
+        display: flex;
+        // margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu {
+        display: flex;
+        gap: 40px;
+    }
+    &__item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-decoration: none;
+        font-size: 18px;
+        color: variables.$font-white;
+    }
+}

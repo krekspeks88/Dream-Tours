@@ -1,0 +1,24 @@
+// * Це головний sass/scss файл проекту
+// * імпортуйте сюди всі інші ваші файли sass/scss
+
+@use './base/reset';
+@use './base/fonts';
+@use './base/base';
+@use './base/mixins';
+@use './base/variables';
+
+@use './blocks/components/logo';
+@use './blocks/header/main-header';
+@use './blocks/components/button';
+@use './blocks/promo/promo';
+@use './blocks/components/section-title';
+@use './blocks/popular-plases/popular-plases';
+@use './blocks/components/choise-card';
+@use './blocks/information/information';
+@use './blocks/reviews/reviews';
+@use './blocks/components/carousel';
+@use './blocks/about-us/about-us';
+@use './blocks/gallery/gallery';
+@use './blocks/footer/footer';
+@use './blocks/components/socials';
+@use './blocks/components/copyright';

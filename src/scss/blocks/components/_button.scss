@@ -1,0 +1,32 @@
+@use '../../base/variables';
+
+.btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: variables.$btn-main_color;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    span {
+        font-family: variables.$main-family;
+        font-size: 16px;
+        color: variables.$font-white;
+    }
+    &-white {
+        background-color: variables.$font-white;
+        span {
+            color: variables.$color-black;
+        }
+    }
+    &-card {
+        width: 100%;
+    }
+    &-border {
+        border: 1px solid rgba(2, 9, 25, 0.15);
+    }
+}
+

@@ -1,0 +1,47 @@
+@use '../../base/variables';
+
+.information {
+    margin-top: 160px;
+    &__title {
+        text-align: center;
+    }
+    &__subtitle {
+        margin: 25px auto 0;
+        max-width: 715px;
+        text-align: center;
+    }
+    &__cards {
+        margin-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    &__item {
+        max-width: 280px;
+        padding: 50px 38px 70px;
+        border-radius: 10px;
+        border: 1px solid rgba(2, 9, 25, 0.15);
+        &-img {
+            display: block;
+            margin: 0 auto;
+        }
+        &-title {
+            margin-top: 20px;
+            font-family: variables.$second-family;
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            color: variables.$color-black;
+        }
+        &-descr {
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            text-align: center;
+            color: rgba(2, 9, 25, 0.7);
+        }
+        
+    }
+}

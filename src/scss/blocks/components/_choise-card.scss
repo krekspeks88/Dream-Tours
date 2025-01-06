@@ -1,0 +1,66 @@
+@use '../../base/variables';
+
+* {
+    font-family: variables.$main-family;
+}
+
+.choise-card {
+    max-width: 398px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    &__inner {
+        max-width: 340px;
+        padding: 25px 30px 30px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    &__subtitle {
+        margin-top: 15px;
+        font-size: 14px;
+        color: variables.$color-black;
+        line-height: 160%;
+        opacity: .6;
+    }
+    &__route-descr {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        &_item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+            span {
+                color: variables.$color-black;
+                font-size: 14px;
+                line-height: 160%;
+            }
+        }
+    }
+    &__footer {
+        margin-top: 25px;
+        &-price {
+            font-size: 14px;
+            color: rgba(2, 9, 25, 0.75);
+            span {
+                margin-right: 15px;
+                font-weight: 700;
+                font-size: 24px;
+                letter-spacing: -0.02em;
+                color: variables.$btn-main_color;
+            }
+        }
+    }
+    &__innerBtn {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

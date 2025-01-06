@@ -1,0 +1,33 @@
+@use '../../base/variables';
+
+.about-us {
+    margin-top: 280px;
+    &__title {
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__inner-text {
+        margin-top: 130px;
+        max-width: 430px;
+    }
+    &__subtitle {
+        font-family: variables.$second-family;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 25px;
+        font-size: 16px;
+        line-height: 160%;
+        color: rgba(2, 9, 25, 0.7);
+        text-align: left;
+    }
+    &__btn {
+        margin-top: 35px;
+        width: 220px;
+    }
+}

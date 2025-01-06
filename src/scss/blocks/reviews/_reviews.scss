@@ -1,0 +1,9 @@
+@use "../../base/variables";
+
+
+.reviews {
+    margin-top: 200px;
+    &__title {
+        text-align: center;
+    }
+}

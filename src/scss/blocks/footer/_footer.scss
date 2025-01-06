@@ -1,0 +1,68 @@
+@use "../../base/variables";
+
+.footer {
+  margin-top: 200px;
+  padding: 80px 0;
+  background-color: variables.$color-black;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  &__logo {
+    max-width: 116px;
+  }
+  &__descr {
+    max-width: 377px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: variables.$font-white;
+  }
+  &__navigation {
+    display: flex;
+    gap: 175px;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__menu-subtitle {
+    font-family: variables.$second-family;
+    font-weight: 700;
+    font-size: 18px;
+    color: variables.$font-white;
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    &-item {
+      font-size: 16px;
+      font-weight: 400;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.5);
+      &:hover {
+        text-decoration: underline;
+        color: variables.$font-white;
+        transition: all 0.5s;
+      }
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  &__copyright {
+    // border-top:;
+    // border-width: 100%;
+  }
+}

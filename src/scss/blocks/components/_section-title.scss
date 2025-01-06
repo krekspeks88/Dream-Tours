@@ -1,0 +1,14 @@
+@use "../../base/variables";
+
+.section-title {
+  font-family: variables.$second-family;
+  font-size: 48px;
+}
+
+.section-subtitle {
+  font-family: variables.$main-family;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgba(2, 9, 25, 0.7)
+}

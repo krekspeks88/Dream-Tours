@@ -1,0 +1,18 @@
+@use '../../base/variables';
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 100px;
+    background-color: variables.$color-black;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    &__text {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__link {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
