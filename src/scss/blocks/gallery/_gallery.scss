@@ -1,7 +1,6 @@
 @use '../../base/variables';
 
 .gallery {
-    
     margin-top: 290px;
     &__title {
         text-align: center;
@@ -14,6 +13,7 @@
     &__inner {
         margin-top: 100px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         position: relative;

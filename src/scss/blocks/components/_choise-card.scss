@@ -8,6 +8,15 @@
     max-width: 398px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+    @media(max-width:1200px) {
+        max-width: 325px;
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
     &__inner {
         max-width: 340px;
         padding: 25px 30px 30px;

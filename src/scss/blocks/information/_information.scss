@@ -1,7 +1,11 @@
 @use '../../base/variables';
+@use '../../base/mixins';
 
 .information {
     margin-top: 160px;
+    @media(max-width:1200px) {
+        padding: 0 80px;
+    }
     &__title {
         text-align: center;
     }
@@ -16,12 +20,19 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 40px;
+        @media(max-width:1200px) {
+            justify-content: space-between;
+            gap: 0;
+        }
     }
     &__item {
         max-width: 280px;
         padding: 50px 38px 70px;
         border-radius: 10px;
         border: 1px solid rgba(2, 9, 25, 0.15);
+        @media(max-width:1200px) {
+            max-width: 230px;
+        }
         &-img {
             display: block;
             margin: 0 auto;

@@ -12,8 +12,12 @@
     font-family: variables.$second-family;
     font-weight: 700;
     font-size: 68px;
+    text-align: center;
     line-height: 120%;
     color: variables.$font-white;
+    @media(max-width: 1200px) {
+        font-size: 60px;
+    }
    }
    &__description {
     margin-top: 25px;
@@ -22,6 +26,11 @@
     font-weight: 400;
     font-size: 16px;
     color: variables.$font-white;
+    @media(max-width: 1200px) {
+        font-size: 15px;
+        max-width: 778px;
+        margin: 25px auto 0;
+    }
    }
    &__inner-btn {
     margin-top: 35px;
@@ -31,7 +40,7 @@
    }
    &__background-substrate {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     width: 100%;
    }
 }
