@@ -72,4 +72,14 @@
         flex-direction: column;
         gap: 10px;
     }
+    &__media-mt-65 {
+        @media(max-width: 1200px) {
+            margin-top: 65px;
+        }
+    }
+    &__media-mt-45 {
+        @media(max-width:1200px) {
+            margin-top: 45px;
+        }
+    }
 }

@@ -3,6 +3,9 @@
 
 .reviews {
     margin-top: 200px;
+    @media(max-width: 1200px) {
+        padding: 0 80px;
+    }
     &__title {
         text-align: center;
     }
